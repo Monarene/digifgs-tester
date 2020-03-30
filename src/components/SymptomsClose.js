@@ -36,7 +36,11 @@ function SymptomsClose() {
         </div>
       </div>
       <Link to="/form">
-        <Button outline color="primary" style={{ marginTop: "20px" }}>
+        <Button
+          outline
+          color="primary"
+          style={{ marginTop: "20px", width: "208px" }}
+        >
           NEXT
         </Button>
       </Link>

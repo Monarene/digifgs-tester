@@ -5,6 +5,7 @@ import SymptopsOpen from "./SymptomsOpen";
 import HomePage from "./HomePage";
 import CheckPage from "./CheckPage";
 import Form from "./FormCOmponent";
+import NextSteps from "./NextSteps.js";
 import SymptomsClose from "./SymptomsClose";
 
 class Main extends Component {
@@ -38,6 +39,7 @@ class Main extends Component {
           />
           <Route path="/symptoms2" component={SymptomsClose} />
           <Route path="/form" component={Form} />
+          <Route path="/nextsteps" component={NextSteps} />
           <Redirect to="/home" />
         </Switch>
       </div>
