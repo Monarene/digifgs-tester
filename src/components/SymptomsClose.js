@@ -35,7 +35,7 @@ function SymptomsClose() {
           </label>
         </div>
       </div>
-      <Link to="/form">
+      <Link to="/return">
         <Button
           outline
           color="primary"

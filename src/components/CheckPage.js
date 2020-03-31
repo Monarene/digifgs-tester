@@ -50,6 +50,14 @@ function CheckPage(props) {
           </Button>
         </Link>
       </div>
+      <h6
+        className="specify"
+        style={{ color: "red", paddingTop: "5px", textAlign: "jutify" }}
+      >
+        Please note that this test doesn’t confirm whether you have the virus or
+        not. This test is done independently by the Oyo State government and
+        your details will not be shared with any third party other than NCDC.
+      </h6>
     </div>
   );
 }
