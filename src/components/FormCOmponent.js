@@ -14,18 +14,20 @@ class FormComponent extends Component {
         <h5 className="ncdcreach">
           So that NCDC can call you in case we need to test you
         </h5>
-        <div className="form"></div>
-        <form className="contactform">
-          <label for="firstname" className="formlabel">
-            First Name
-          </label>
-          <input type="text" id="firstname" placeholder="John"></input>
+        <div className="form">
+          <form className="contactform">
+            <label for="firstname" className="formlabel">
+              First Name
+            </label>
+            <input type="text" id="firstname" placeholder="John"></input>
 
-          <label for="firstname" className="formlabel">
-            Phone Number
-          </label>
-          <input type="text" id="number" placeholder="0800 123 4567"></input>
-        </form>
+            <label for="firstname" className="formlabel">
+              Phone Number
+            </label>
+            <input type="text" id="number" placeholder="0800 123 4567"></input>
+          </form>
+        </div>
+
         <Link to="/nextsteps">
           <Button
             outline

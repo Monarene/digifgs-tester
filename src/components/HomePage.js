@@ -18,15 +18,18 @@ function HomePage() {
         </Link>
       </div>
       <div>
-        <h5 className="homepagetext" style={{ paddingTop: "30px" }}>
-          How to prevent against Covid-19
+        <h5 className="hometext" style={{ paddingTop: "30px" }}>
+          How to prevent against Covid-19{" "}
+          <a href="https://covid19.digifigs.com/">Visit now</a>
         </h5>
       </div>
-      <div className="homebutton">
-        <Button aria-label="radio" outline color="primary">
-          <a href="https://covid19.digifigs.com/">VISIT NOW</a>
-        </Button>{" "}
+      <div>
+        <h5 className="hometext" style={{ paddingTop: "10px" }}>
+          Updates on Covid-19 in Oyo state{" "}
+          <a href="https://covid19.digifigs.com/">Visit now</a>
+        </h5>
       </div>
+
       <div>
         <h5 className="homepagetext" style={{ paddingTop: "30px" }}>
           Oyo state statistics
@@ -34,36 +37,28 @@ function HomePage() {
         <div style={{ paddingTop: "15px" }}>
           <h6
             className="homepagetext"
-            style={{ fontSize: "20px", fontWeight: "bold" }}
+            style={{ fontSize: "20px", fontWeight: "bold", color: "red" }}
           >
             Confirmed: 8
           </h6>
           <h6
             className="homepagetext"
-            style={{ fontSize: "20px", fontWeight: "bold" }}
+            style={{ fontSize: "20px", fontWeight: "bold", color: "orange" }}
           >
             Active: 8
           </h6>
           <h6
             className="homepagetext"
-            style={{ fontSize: "20px", fontWeight: "bold" }}
+            style={{ fontSize: "20px", fontWeight: "bold", color: "red" }}
           >
             Deaths: 0
           </h6>
           <h6
             className="homepagetext"
-            style={{ fontSize: "20px", fontWeight: "bold" }}
+            style={{ fontSize: "20px", fontWeight: "bold", color: "green" }}
           >
             Recovered: 0
           </h6>
-        </div>
-        <div>
-          <h5 className="homepagetext">Updates on Covid-19 in Oyo state</h5>
-        </div>
-        <div className="homebutton" style={{ paddingBottom: "30px" }}>
-          <Button outline color="primary">
-            <a href="https://covid19.digifigs.com/">VISIT NOW</a>
-          </Button>{" "}
         </div>
       </div>
     </>
