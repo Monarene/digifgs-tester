@@ -17,14 +17,14 @@ function HomePage() {
           </Button>{" "}
         </Link>
       </div>
-      <div>
-        <h5 className="hometext" style={{ paddingTop: "30px" }}>
+      <div className="hometext">
+        <h5 style={{ paddingTop: "30px" }}>
           How to prevent against Covid-19{" "}
           <a href="https://covid19.digifigs.com/">Visit now</a>
         </h5>
       </div>
-      <div>
-        <h5 className="hometext" style={{ paddingTop: "10px" }}>
+      <div className="hometext">
+        <h5 style={{ paddingTop: "10px" }}>
           Updates on Covid-19 in Oyo state{" "}
           <a href="https://covid19.digifigs.com/">Visit now</a>
         </h5>
