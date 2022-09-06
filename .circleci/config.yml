@@ -21,6 +21,20 @@ jobs:
       - checkout
       - run: |
           # echo World
+  naming:
+    docker:
+      - image: circleci/node:13.8.0
+    steps:
+      - checkout
+      - run:
+          name: "Setup custom environment variables"
+          command: echo 'export MY_NAME="MICHAEL MEKULEYI"' >> $BASH_ENV
+      - run: # print the name of the branch we're on
+          name: "What branch am I on?"
+          command: echo ${CIRCLE_BRANCH}
+      - run:
+          name: "What was my custom environment variable?"
+          command: echo ${MY_NAME}
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
